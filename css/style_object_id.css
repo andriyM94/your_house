@@ -1,0 +1,77 @@
+/* стилі для сторінки вибраного об'єкта */
+#owner_info {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  right: 25px;
+  max-width: 280px;
+}
+#owner_info h2 {
+  font-size: 36px;
+  text-align: center;
+}
+#owner_info img {
+  display: block;
+  margin: 0 auto;
+  height: 100px;
+  float: left;
+  margin-right: 15px;
+}
+/*============================================*/
+#object_info {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 25px;
+  width: 560px;
+}
+#object_info h2 {
+  display: block;
+  position: absolute;
+  width: 350px;
+  top: 85px;
+  right: -290px;
+  font-size: 24px;
+  text-align: center;
+}
+#object_info img {
+  display: block;
+  margin: 15px 0 10px 0;
+  height: 250px;
+}
+
+/*=============================================*/
+
+#btn_object_id {
+  display: block;
+  position: absolute;
+  bottom: 15px;
+  left: 25px;
+}
+#btn_object_id button {
+  height: 50px;
+  width: 150px;
+  margin-right: 50px;
+  font-size: 21px;
+  cursor: pointer;
+  background: linear-gradient(to right, #46588c, #d46e75);
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+  font-family: "Sriracha", cursive;
+}
+
+#btn_edit_object {
+  position: absolute;
+  top: 25px;
+  right: -290px;
+  height: 50px;
+  width: 200px;
+  font-size: 21px;
+  cursor: pointer;
+  background: linear-gradient(to right, #46588c, #d46e75);
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+  font-family: "Sriracha", cursive;
+}

@@ -1,0 +1,75 @@
+/* Стилі для шапки сайта */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background-image: url(/images/home.jpg);
+  font-family: "Sriracha", cursive;
+}
+
+#header {
+  height: 100px;
+  position: relative;
+}
+
+#header a {
+  text-decoration: none;
+  color: black;
+}
+
+#header #logo_title {
+  display: block;
+  top: 0px;
+  left: 10px;
+  position: absolute;
+  padding-right: 10px;
+  text-shadow: -8px -3px 6px white, 4px 3px 0em rgb(255, 255, 255);
+}
+
+#header #logo_title img {
+  width: 100px;
+  position: absolute;
+  top: 20px;
+  left: 180px;
+}
+
+#header #title_site {
+  width: 200px;
+  font-size: 36px;
+  font-family: "Sriracha", cursive;
+  border-radius: 10px;
+}
+
+#header #nav_panel {
+  display: block;
+  font-family: "Sriracha", cursive;
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  font-size: 26px;
+  text-shadow: -8px -7px 5px #4db1bb, 2px 2px 0em rgb(255 255 255);
+}
+
+#header #nav_panel img {
+  width: 250px;
+  position: absolute;
+  top: 400px;
+  right: -5px;
+}
+
+#header #name_user {
+  font-weight: 700;
+  width: 250px;
+  position: absolute;
+  top: 340px;
+  right: 0px;
+  font-size: 30px;
+  text-align: center;
+}

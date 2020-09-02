@@ -1,0 +1,66 @@
+/* стилі для головної сторінки з усіма об'єктами */
+.content {
+  display: block;
+  margin: 0 auto;
+  height: calc(100% - 120px);
+  width: 900px;
+  background: rgb(255 255 255 / 70%);
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.flexy {
+  display: block;
+  width: calc(100% - 50px);
+  /* border: 1px solid #eee; */
+  height: 100%;
+  margin: 0 auto;
+}
+
+.flexy thead {
+  display: flex;
+  flex-flow: row;
+}
+
+.flexy thead tr {
+  padding-right: 15px;
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+}
+
+.flexy tbody {
+  display: flex;
+  height: 440px;
+  overflow: auto;
+  flex-flow: row wrap;
+}
+.flexy tbody tr {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.flexy tbody tr:hover {
+  cursor: pointer;
+  background: rgb(187 187 186 / 80%);
+}
+.flexy .list_id {
+  width: 40px;
+}
+.flexy .list_img {
+  width: 200px;
+}
+.flexy .list_title {
+  width: 150px;
+}
+.flexy .list_description {
+  width: 420px;
+}
+
+.flexy tr td img {
+  height: 100px;
+}
